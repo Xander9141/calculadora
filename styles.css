@@ -1,0 +1,38 @@
+#calculator {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+#display {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+.operator {
+    color: rgb(251, 250, 249);
+    background-color: rgb(223, 149, 38);
+
+}
+
+#equals {
+    background-color: lightgrey;
+    /* Cambia el fondo a gris claro */
+    border-radius: 20px;
+    /* Aplica border-radius de 20px */
+}
